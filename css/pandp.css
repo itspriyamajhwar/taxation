@@ -1,0 +1,224 @@
+.registration-section {
+    background: url('https://lawadvocategroup.com/wp-content/uploads/2023/02/Conversion-Civil-Law_L.jpg') no-repeat center center/cover;
+    color: white;
+    padding: 80px 0;
+    position: relative;
+}
+
+/* Dark Overlay */
+.registration-section::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; width: 100%; height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.registration-content {
+    position: relative;
+    z-index: 2;
+}
+
+/* Form Styling */
+.registration-form {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.highlight-box {
+    background: black;
+    color: yellow;
+    padding: 5px;
+    font-weight: bold;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.form-control {
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.btn-custom {
+    background: navy;
+    color: white;
+    width: 100%;
+}
+
+.btn-custom:hover {
+    background: darkblue;
+}
+.apply-header {
+    background: #08172E;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Form Container */
+.apply-form {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background: white;
+}
+
+/* Form Inputs */
+.form-control {
+    border: none;
+    border-bottom: 2px solid black;
+    border-radius: 0;
+    box-shadow: none;
+    font-weight: bold;
+}
+
+/* Custom Submit Button */
+.btn-proceed {
+    background: #009FE3;
+    color: white;
+    padding: 10px 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-proceed:hover {
+    background: #007bb5;
+}
+
+/* Navigation Menu */
+.apply-menu {
+    background: #f0f8ff;
+    padding: 10px;
+    text-align: center;
+}
+
+.apply-menu a {
+    color: #08172E;
+    font-weight: bold;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+.apply-menu a:hover {
+    text-decoration: underline;
+}
+.conversion-section {
+    background: #f8f9fa;
+    padding: 60px 0;
+}
+
+.conversion-header {
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    color: #08172E;
+    margin-bottom: 30px;
+}
+
+.step-box {
+    background: white;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+
+.step-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.step-icon {
+    font-size: 40px;
+    color: #007BFF;
+    margin-bottom: 15px;
+}
+
+.step-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.step-description {
+    font-size: 14px;
+    color: #555;
+}
+.registrations-section {
+    background: #f8f9fa;
+    padding: 60px 0;
+}
+
+.registrations-header {
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    color: #08172E;
+    margin-bottom: 30px;
+}
+
+.info-box {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+
+.info-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.info-image {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+   
+}
+.faq-section {
+    background: #f8f9fa;
+    padding: 60px 0;
+}
+
+.faq-header {
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    color: #08172E;
+    margin-bottom: 30px;
+}
+
+.accordion-button {
+    font-size: 18px;
+    font-weight: bold;
+    background: #ffffff;
+    color: #08172E;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #007BFF;
+    color: white;
+}
+
+.accordion-body {
+    font-size: 16px;
+    color: #333;
+}
+
+.faq-icon {
+    font-size: 22px;
+    color: #007BFF;
+    margin-right: 10px;
+}

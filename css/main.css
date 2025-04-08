@@ -1,0 +1,228 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Martian+Mono:wght@300&family=Monsieur+La+Doulaise&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:wght@300&family=Ubuntu:wght@700&display=swap');
+
+
+.dropdown-menu {
+    display: none;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+    opacity: 1;
+}
+
+
+.stylish-logo {
+    font-size: 2rem; /* Larger text */
+    font-weight: 800;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+  }
+
+  .stylish-logo .biz-blue {
+    color: #007bff;
+  }
+
+  .stylish-logo .biz-red {
+    color: #dc3545;
+  }
+       .navbar {
+            background: white!important;
+        }
+        .navbar-brand {
+            font-weight: bold;
+            color: #FF3C3C !important;
+        }
+        .nav-link {
+            color: rgb(9, 9, 9) !important;
+            font-weight: 500;
+        }
+        .dropdown-menu {
+            border: none;
+            box-shadow: 0px 4px 6px rgba(245, 243, 243, 0.1);
+        }
+        .contact-btn {
+            background: #FF3C3C;
+            color: white;
+            border-radius: 20px;
+            padding: 5px 15px;
+        }
+        .contact-btn:hover {
+            background: #e63232;
+            color: white;
+        }
+        .navbar-nav .nav-item {
+            margin-right:20px;/* Adds spacing between navbar items */
+        }
+        .navbar-brand img {
+            height:100px;
+        }
+        .hero-section {
+            background: linear-gradient(to right, #f8f9fa, #ffffff);
+            padding: 50px 0;
+        }
+        .hero-text h1 {
+            font-weight: bold;
+        }
+        .hero-text .highlight {
+            color: #007bff;
+        }
+        .hero-text .highlight-red {
+            color: #dc3545;
+        }
+        .hero-image img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+        .service-box {
+            position: relative;
+            padding: 20px;
+            text-align: center;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: transform 0.3s;
+        }
+        .service-box:hover {
+            transform: scale(1.05);
+            background-color: rgb(148, 189, 243);
+            color: white;
+        }
+        .service-box::after {
+            content: '\2192'; /* Right arrow */
+            font-size: 24px;
+            position: absolute;
+            top: 50%;
+            right: 20px;
+            transform: translateY(-50%);
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+        .service-box:hover::after {
+            opacity: 1;
+        }
+        .quote-box {
+            background-color: #007bff;
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        .about-section {
+            padding: 50px 0;
+        }
+        .about-section img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+        .icon-box i {
+            transition: transform 0.3s ease-in-out;
+        }
+        .card:hover .icon-box i {
+            transform: scale(1.2);
+        }
+        .blog-item {
+            background: #f8f9fa;
+            border-radius: 10px;
+            overflow: hidden;
+            transition: transform 0.3s ease-in-out;
+        }
+        .blog-item:hover {
+            transform: translateY(-5px);
+        }
+        .blog-img {
+            width: 100%;
+            max-width: 300px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px 10px 0 0;
+        }
+        .blog-content {
+            flex: 1;
+            text-align: center;
+        }
+        .read-more {
+            color: #007bff;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        .read-more:hover {
+            text-decoration: underline;
+        }
+    
+        @media (min-width: 768px) {
+            .blog-item {
+                flex-direction: row;
+                text-align: left;
+                border-radius: 10px;
+            }
+            .blog-img {
+                border-radius: 10px 0 0 10px;
+            }
+        }
+        .contact-info, .contact-form {
+            background: #f8f9fa;
+        }
+        .contact-form input, .contact-form textarea {
+            border-radius: 8px;
+        }
+        .contact-form button {
+            border-radius: 8px;
+            transition: 0.3s ease-in-out;
+        }
+        .contact-form button:hover {
+            background-color: #0056b3;
+        }
+        .list-unstyled i {
+            margin-right: 10px;
+        }
+        .testimonial {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+            max-width: 600px;
+            margin: auto;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        .carousel-control-prev, .carousel-control-next {
+            filter: invert(100%);
+        }
+        footer {
+            position: relative;
+        }
+    
+        #scrollTopBtn {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            display: none;
+            padding: 10px 15px;
+            font-size: 20px;
+            border-radius: 50%;
+            box-shadow: 0px 2px 10px rgba(0,0,0,0.3);
+        }
+    
+        .social-icons a {
+            margin-right: 5px;
+            color: white;
+        }
+    
+        .bi {
+            margin-right: 5px;
+        }
+        .faq-section {
+            background-color: #f8f9fa;
+            padding: 50px 0;
+        }
+        .faq-header {
+            text-align: center;
+            font-weight: bold;
+        }
+        .faq-icon {
+            margin-right: 8px;
+        }
+        .accordion-button {
+            font-weight: bold;
+        }

@@ -1,0 +1,17 @@
+.hero {
+    background: linear-gradient(to right, #8bb4f2, #6ba7e8);
+    color: white;
+    padding: 60px 0;
+  }
+  .section-title {
+    font-weight: 700;
+    margin-bottom: 30px;
+  }
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  }
+  .cta {
+    background-color: #f8f9fa;
+    padding: 60px 0;
+  }

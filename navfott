@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taxation</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <!-- Add Font Awesome for icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="image/newlogo.png" alt="BizzSure Logo" >
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Business Registration </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Company Formation</a></li>
+                            <li><a class="dropdown-item" href="PartnershipProprietorship.html">Partnership & Proprietorship Registration</a></li>
+                            <li><a class="dropdown-item" href="MSME.html">MSME (Udyam) Registration</a></li>
+                            <li><a class="dropdown-item" href="#">Startup India Registration</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Licensing and Compliance</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">GST Registration and Filing</a></li>
+                            <li><a class="dropdown-item" href="#">Import Export Code (IEC) Registration</a></li>
+                            <li><a class="dropdown-item" href="#">FSSAI (Food License) Registration</a></li>
+                            <li><a class="dropdown-item" href="#">Trade License and Shop Act Registration</a></li>
+                            <li><a class="dropdown-item" href="#">Professional Tax Registration</a></li>
+                            <li><a class="dropdown-item" href="#">PF & ESI Registration</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Financial </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Business Loans & Funding Assistance</a></li>
+                            <li><a class="dropdown-item" href="#">Accounting, Bookkeeping & Financial Planning</a></li>
+                            <li><a class="dropdown-item" href="#">Financial Planning and Advisory</a></li>
+                            <li><a class="dropdown-item" href="#">Project Reports & Business Valuation</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Other Services</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">DSC</a></li>
+                            <li><a class="dropdown-item" href="#">Internal Audit, Stock Audit & Due Diligence</a></li>
+                            <li><a class="dropdown-item" href="#">ISO Certification</a></li>
+                            <li><a class="dropdown-item" href="#">12A & 80G Certificate</a></li>
+                            <li><a class="dropdown-item" href="#">RERA Registration</a></li>
+                            <li><a class="dropdown-item" href="#">Legal Advice</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Taxation </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Income Tax Return Filing</a></li>
+                            <li><a class="dropdown-item" href="#">GST Return and Compliance</a></li>
+                            <li><a class="dropdown-item" href="#">GST Annual Return and Audit</a></li>
+                            <li><a class="dropdown-item" href="#">TDS & TCS Return & Compliance</a></li>
+                            <li><a class="dropdown-item" href="#">Tax Advisory and Planning</a></li>
+                            <li><a class="dropdown-item" href="#">Tax Assessments and Appeals</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Legal and Compliance </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Drafting  and Agreements</a></li>
+                            <li><a class="dropdown-item" href="#">Compliance and Annual Filings</a></li>
+                            <li><a class="dropdown-item" href="#">ROC Compliance</a></li>
+                            <li><a class="dropdown-item" href="#">NCLT & NCLAT and IBC Matters</a></li>
+                            <li><a class="dropdown-item" href="#">IPR (Trademark, Copyright, Patent)</a></li>
+                            <li><a class="dropdown-item" href="#">SEBI (LODR) and FEMA Compliance</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link contact-btn" href="#">Contact Now</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+   
+<footer class="bg-dark text-light py-5">
+    <div class="container">
+        <div class="row">
+            <!-- Certificate & Registration -->
+            <div class="col-md-3">
+                <h5 class="fw-bold">Certificate & Reg.</h5>
+                <hr class="border-primary w-25">
+                <ul class="list-unstyled">
+                    <li><a href="#" class="text-light text-decoration-none">➜ Trademark Registration</a></li>
+                    <li><a href="#" class="text-light text-decoration-none">➜ Partnership Registration</a></li>
+                    <li><a href="#" class="text-light text-decoration-none">➜ Drug License</a></li>
+                    <li><a href="#" class="text-light text-decoration-none">➜ EPR Certificate</a></li>
+                    <li><a href="#" class="text-light text-decoration-none">➜ LMPC Certificate</a></li>
+                </ul>
+            </div>
+
+            <!-- Company Services -->
+            <div class="col-md-3">
+                <h5 class="fw-bold">Company Services</h5>
+                <hr class="border-primary w-25">
+                <ul class="list-unstyled">
+                    <li><a href="#" class="text-light text-decoration-none">➜ Private Limited Registration</a></li>
+                    <li><a href="#" class="text-light text-decoration-none">➜ Limited Liability Partnership</a></li>
+                    <li><a href="#" class="text-light text-decoration-none">➜ One Person Company</a></li>
+                    <li><a href="#" class="text-light text-decoration-none">➜ MSME Registration</a></li>
+                    <li><a href="#" class="text-light text-decoration-none">➜ ISO Registration</a></li>
+                </ul>
+            </div>
+
+            <!-- Taxation Principles -->
+            <div class="col-md-3">
+                <h5 class="fw-bold">Taxation Principles</h5>
+                <hr class="border-primary w-25">
+                <ul class="list-unstyled">
+                    <li><a href="#" class="text-light text-decoration-none">➜ Income Tax Return</a></li>
+                    <li><a href="#" class="text-light text-decoration-none">➜ GST Registration</a></li>
+                    <li><a href="#" class="text-light text-decoration-none">➜ TDS Return</a></li>
+                    <li><a href="#" class="text-light text-decoration-none">➜ GST Return</a></li>
+                    <li><a href="#" class="text-light text-decoration-none">➜ GST Software</a></li>
+                </ul>
+            </div>
+
+            <!-- LegalRaasta -->
+            <div class="col-md-3">
+                <h5 class="fw-bold">BizzSure</h5>
+                <hr class="border-primary w-25">
+                <ul class="list-unstyled">
+                    <li><a href="#" class="text-light text-decoration-none">➜ Terms and Conditions</a></li>
+                    <li><a href="#" class="text-light text-decoration-none">➜ Privacy Policy</a></li>
+                    <li><a href="#" class="text-light text-decoration-none">➜ Refund Policy</a></li>
+                    
+                   
+                </ul>
+            </div>
+        </div>
+
+        <!-- Office Address -->
+        <div class="row mt-4">
+            <div class="col-md-6">
+                <h5 class="fw-bold">Office Address</h5>
+                <hr class="border-primary w-25">
+                <p><i class="bi bi-geo-alt-fill"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi perferendis soluta nobis dolores earum odio vitae impedit quae, ipsa, quos, possimus a repellat. Dolorum quasi alias tempora consequatur quis labore!</p>
+                <p><i class="bi bi-envelope-fill"></i> contact@BizzSure.com</p>
+                <p><i class="bi bi-telephone-fill"></i> +91 0000000000</p>
+                <div class="social-icons">
+                    <a href="#" class="btn btn-outline-light btn-sm"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#" class="btn btn-outline-light btn-sm"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#" class="btn btn-outline-light btn-sm"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Copyright -->
+        <div class="text-center mt-4">
+            <p class="mb-0">© 2015 - 2025 BizzSure.com. All rights reserved.</p>
+        </div>
+    </div>
+
+   
+
+
+
+       
+   
+    <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

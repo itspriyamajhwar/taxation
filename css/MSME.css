@@ -1,0 +1,49 @@
+.registration-section {
+    background: url('https://lawadvocategroup.com/wp-content/uploads/2023/02/Conversion-Civil-Law_L.jpg') no-repeat center center/cover;
+    color: white;
+    padding: 80px 0;
+    position: relative;
+}
+.registration-content {
+    color: #333;
+}
+.step-box {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: 0.3s;
+}
+.step-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+.step-icon {
+    font-size: 30px;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+.step-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+.step-description {
+    font-size: 14px;
+    color: #666;
+}
+.faq-section {
+    background: #f8f9fa;
+    padding: 50px 0;
+}
+.faq-header {
+    text-align: center;
+    font-weight: bold;
+}
+.faq-icon {
+    font-size: 18px;
+    margin-right: 8px;
+}
+.accordion-button {
+    font-weight: bold;
+}

@@ -1,0 +1,31 @@
+.hero {
+    background: url('https://thumbs.dreamstime.com/b/lawyer-signing-contract-professional-law-firm-library-drafting-legal-document-agreement-ensuring-lawful-protection-279065125.jpg') no-repeat center center/cover;
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+    position: relative;
+}
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.6);
+}
+.hero-content {
+    position: relative;
+    z-index: 2;
+}
+.underline {
+    width: 60px;
+    height: 4px;
+    background: #0d6efd;
+    margin: 10px auto 30px;
+}
+.feature-box, .card, .why-box {
+    transition: transform 0.3s ease;
+}
+.feature-box:hover, .card:hover, .why-box:hover {
+    transform: translateY(-5px);
+}

@@ -1,0 +1,27 @@
+.hero-section {
+    background: url('https://images.unsplash.com/photo-1591696205602-2f950c417cb9') no-repeat center center/cover;
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+    position: relative;
+}
+.hero-overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    z-index: 1;
+}
+.hero-content {
+    position: relative;
+    z-index: 2;
+}
+.section-title {
+    border-bottom: 3px solid #007BFF;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.card:hover {
+    transform: translateY(-5px);
+    transition: 0.3s;
+}
