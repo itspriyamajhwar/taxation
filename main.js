@@ -31,3 +31,33 @@
         });
         document.getElementById(sectionId).classList.add('active-section');
     }
+
+    //php 
+ 
+        $('#contactForm').on('submit', function(e) {
+            e.preventDefault();
+            $.ajax({
+                url: 'contact.php', // Make sure your PHP file is named contact.php
+                type: 'POST',
+                data: $(this).serialize(),
+                dataType: 'json',
+                success: function(response) {
+                    $('#formMessage')
+                        .text(response.message)
+                        .css('color', response.status === 'success' ? 'green' : 'red');
+                    if (response.status === 'success') {
+                        $('#contactForm')[0].reset();
+                    }
+                },
+                error: function() {
+                    $('#formMessage')
+                        .text('Something went wrong. Please try again later.')
+                        .css('color', 'red');
+                }
+            });
+        });
+     
+
+
+
+      
